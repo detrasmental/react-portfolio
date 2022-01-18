@@ -8,6 +8,8 @@
 
     h1{
         font-size: 50px;
+        text-align: center;
+
     }
 
     ul{
@@ -17,7 +19,7 @@
        display: flex; 
 
        li{
-           font-size: 15px;
+           font-size: 25px;
            margin-right: 50px;
            padding: 7px;
            border-radius: 10px;
@@ -30,7 +32,7 @@
        }
     }
     .container{
-        width: 70%;
+        width: 60%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -38,7 +40,7 @@
 
         .item{
             width: 220px;
-            height: 150px;
+            height: 170px;
             border-radius: 20px;
             border: 1px solid rgb(240, 239, 239);
             margin: 10px 20px;
@@ -47,7 +49,7 @@
             justify-content: center;
             color: white;
             position: relative;
-            transition: all 05s ease;
+            transition: all .5s ease;
             cursor: pointer;
 
             h3{
