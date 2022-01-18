@@ -7,6 +7,12 @@ export default function Works() {
                 <div className="container">
                     <div className="item">
                         <div className="left"></div>
+                            <div className="leftContainer">
+                                <div className="imgContainer">
+                                    <img src="assets/wishlist.png" alt="" />
+                                </div>
+
+                            </div>
                             <div className="right"></div>                       
                     </div>
                 </div>
