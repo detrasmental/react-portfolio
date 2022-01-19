@@ -22,10 +22,6 @@ export default function Portfolio() {
                 </div>  
              
             <div className="item">
-                    <img src="assets/quiz.png" alt="" />
-                    <h3><a href="https://detrasmental.github.io/challenge4codequiz/" target="_blank" rel="noreferrer">Code Quiz</a></h3>
-                </div> 
-            <div className="item">
                     <img src="assets/employeetracker.gif" alt="" />
                     <h3><a href="https://github.com/detrasmental/Employee-Tracker" target="_blank" rel="noreferrer">Employee Tracker</a></h3>
                 </div> 
