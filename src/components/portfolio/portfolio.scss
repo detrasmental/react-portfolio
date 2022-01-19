@@ -8,7 +8,7 @@
     
 
     h1{
-        font-size: 60px;
+        font-size: 50px;
         text-align: center;
         color: whitesmoke;
 
@@ -31,10 +31,10 @@
     // }
 
        li{
-           font-size: 25px;
-           margin-right: 50px;
-           padding: 7px;
-           border-radius: 10px;
+        //    font-size: 25px;
+        //    margin-right: 50px;
+        //    padding: 7px;
+        //    border-radius: 10px;
            cursor: pointer;
 
            &.active{
