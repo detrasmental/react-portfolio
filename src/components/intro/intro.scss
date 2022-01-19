@@ -17,7 +17,7 @@
       width: 700px;
       height: 700px;
       display: flex;
-      background-color: darkblue;
+      background-color: rgb(145, 193, 209);
       border-radius: 50%;
       align-items: flex-end;
       justify-content: center;
@@ -60,7 +60,7 @@
       h1{
         font-size: 60px;
         margin: 10px 0;
-        color: darkblue;
+        color: rgb(145, 193, 209);
 
         @include mobile{
           font-size: 40px;
@@ -68,7 +68,7 @@
       }
       h2{
         font-size: 35px;
-        color: darkblue;
+        color: rgb(145, 193, 209);
       }
       h3{
         font-size: 30px;
