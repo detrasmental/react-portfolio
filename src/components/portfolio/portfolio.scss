@@ -11,6 +11,10 @@
         font-size: 50px;
         text-align: center;
         color: whitesmoke;
+        scrollbar-width: none; 
+        &::-webkit-scrollbar{
+            display: none;
+        }
 
         @include mobile{ 
             font-size: 20px;
