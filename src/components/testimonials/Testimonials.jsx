@@ -10,7 +10,7 @@ export default function Testimonials() {
               "assets/chris.jpg",
             icon: "assets/youtube.png",
             desc:
-              "This job, we try to save as many people as we can. Sometimes that doesn’t mean everybody. But if we can’t find a way to live with that, then next time maybe nobody gets saved.",
+              "Before we get started, does anyone want to get out?",
               featured: true,
           }, 
           {
