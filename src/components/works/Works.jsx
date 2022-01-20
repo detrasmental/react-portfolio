@@ -10,7 +10,7 @@ export default function Works() {
                             <div className="leftContainer">
                                 <div className="imgContainer">
                                     
-                                    <h3><a href="https://www.linkedin.com/in/detra-gordon-49b0a4197/"><img src="assets/linkedin2.png" alt=""></img></a></h3>
+                                    <h3><a href="https://www.linkedin.com/in/detra-gordon-49b0a4197/" target="_blank"><img src="assets/linkedin2.png" alt=""></img></a></h3>
                                 </div>
 
                             </div>

@@ -9,7 +9,7 @@
 
     h1{
         font-size: 50px;
-        text-align: center;
+        // text-align: center;
         color: whitesmoke;
         scrollbar-width: none; 
         &::-webkit-scrollbar{
@@ -28,27 +28,29 @@
        list-style: none;
        display: flex; 
 
-    //    @include mobile{
-    //     margin: 10px 0;   
-    //     flex-wrap: wrap;
+       @include mobile{
+        margin: 10px 0;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
 
-    // }
-
-       li{
-        //    font-size: 25px;
-        //    margin-right: 50px;
-        //    padding: 7px;
-        //    border-radius: 10px;
-           cursor: pointer;
-
-           &.active{
-               background-color: $mainColor;
-               color: white;
-           }
-       }
     }
+
+    //    li{
+    //     //    font-size: 25px;
+    //     //    margin-right: 50px;
+    //     //    padding: 7px;
+    //     //    border-radius: 10px;
+    //        cursor: pointer;
+
+    //        &.active{
+    //            background-color: $mainColor;
+    //            color: white;
+    //        }
+    //    }
+    // }
     .container{
-        width: 55%;
+        width: 70%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -63,8 +65,8 @@
         }
 
         .item{
-            width: 240px;
-            height: 190px;
+            width: 220px;
+            height: 150px;
             border-radius: 20px;
             border: 1px solid rgb(240, 239, 239);
             margin: 10px 20px;
