@@ -31,7 +31,7 @@ export default function Testimonials() {
               "assets/bruce.jpg",
             icon: "assets/linkedin.png",
             desc:
-              "Wai-Wait a second, let me ask you something. If we can do this, you know, go back in time, why don't we just find baby Thanos, you know, and... ",
+              "If we can do this, you know, go back in time, why don't we just find baby Thanos, you know, and... ",
           }, 
           {
             id: 4,
