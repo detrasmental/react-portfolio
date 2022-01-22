@@ -9,7 +9,7 @@
 https://github.com/detrasmental/react-portfolio
 
 ## Description
-A portfolio built using React to showcase my projects.
+A portfolio built using React to showcase my projects. A link to the live deployment is here https://detrasmental.github.io/react-portfolio/
 
 ## Table of Contents
 - [Description](#Description)
