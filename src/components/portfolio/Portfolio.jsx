@@ -16,15 +16,15 @@ export default function Portfolio() {
                     <h3><a href="https://detrasmental.github.io/the-dinner-guru/" target="_blank">The Dinner Guru</a></h3>
                 </div>
   
-            <div className="item">
+            {/* <div className="item">
                     <img src="assets/budgetapp.JPG" alt="" />
                     <h3><a href="https://salty-caverns-69170.herokuapp.com/" target="_blank" rel="noreferrer">Budget Tracker</a></h3>
-                </div>  
+                </div>   */}
              
-            <div className="item">
-                    <img src="assets/employeetracker.gif" alt="" />
-                    <h3><a href="https://github.com/detrasmental/Employee-Tracker" target="_blank" rel="noreferrer">Employee Tracker</a></h3>
-                </div> 
+                <div className="item">
+                    <img src="assets/relaxnsch.png" alt="" />
+                    <h3><a href="https://relaxn.herokuapp.com/" target="_blank" rel="noreferrer">Relaxn</a></h3>
+                </div>
             <div className="item">
                     <img src="assets/workdaysch.gif" alt="" />
                     <h3><a href="https://detrasmental.github.io/Work-Day-Scheduler/" target="_blank" rel="noreferrer">Work Day Scheduler</a></h3>
@@ -41,10 +41,7 @@ export default function Portfolio() {
                     <img src="assets/weatherapp.png" alt="" />
                     <h3><a href="https://detrasmental.github.io/Challenge6-Weather-Dashboard/" target="_blank" rel="noreferrer">Weather App</a></h3>
                 </div>
-        <div className="item">
-                    <img src="assets/relaxnsch.png" alt="" />
-                    <h3><a href="https://detrasmental.github.io/react-portfolio/" target="_blank" rel="noreferrer">Relaxn</a></h3>
-                </div>
+      
             </div>
         </div>
     )

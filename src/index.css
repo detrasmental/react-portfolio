@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Righteous&display=swap');
+
+/* clear browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  background: whitesmoke;
+  color: var(--primary-color);
+}
+
+/* color pallet */
+:root{
+  --primary-color: #020e1a;
+  --secondary-color: #214c7e;
+  --tertiary-color: #c04040;
+}
+
+
+.container {
+  display: block;
+  text-align: center;
+  align-items: center;
+}
+
+.container a {
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.title{
+  margin-bottom: 20px;
+  font-size: 90px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(var(--secondary-color), var(--primary-color));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-header {
+  font-size: 55px;
+  margin-top: 30px;
+}
+
+.form-input {
+  flex: 100%;
+  height: 40px;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid var(--primary-color);
+  border-radius: 20px;
+  width: 50%;
+  background: transparent !important;
+  color: black;
+  font-weight: bold;
+}
+
+.form-input:focus{
+  box-shadow: #c08497 0px 3px 10px;
+  outline: none;
+}
+
+.btn {
+  height: 15px;
+  padding: 20px;
+  margin: 10px;
+  border: 4px solid var(--primary-color);
+  border-radius: 20px;
+  cursor: pointer;
+  width: 50%;
+  color: gray;
+}
+
+.btn:hover {
+  box-shadow: blue 6px 8px 10px;
+}
+
+/* end login/sign up styles */
+
+/* header styles */
+.main-header {
+  margin: 0px 10px;
+  display: inline-block;
+  flex-wrap: wrap;
+}
+
+.main-header div a{
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.main-nav{
+  display: flex;
+  font-size: 25px;
+  padding: 20px auto;
+}
+
+
+/* main page */
+
+.main-title {
+  font-size: 75px;
+  margin-top: 150px;
+  margin-bottom: 80px;
+  /* background: -webkit-linear-gradient(var(--secondary-color), var(--primary-color)); */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* footer */
+
+.footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  height: 2.5rem;
+}
+
