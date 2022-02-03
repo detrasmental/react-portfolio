@@ -42,7 +42,7 @@ export default function Portfolio() {
                     <h3><a href="https://detrasmental.github.io/Challenge6-Weather-Dashboard/" target="_blank" rel="noreferrer">Weather App</a></h3>
                 </div>
         <div className="item">
-                    <img src="assets/weatherapp.png" alt="" />
+                    <img src="assets/relaxnsch.png" alt="" />
                     <h3><a href="https://detrasmental.github.io/react-portfolio/" target="_blank" rel="noreferrer">Relaxn</a></h3>
                 </div>
             </div>
