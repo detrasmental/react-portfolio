@@ -24,8 +24,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                       <span className="line3"></span>    
                      </div>
                     </div>   
-            </div>
-            
+            </div>     
         </div>
     );
 }
